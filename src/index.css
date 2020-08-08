@@ -1,13 +1,61 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Brian-Santeliz 
+juanpablogdl
+/
+breakingbad_react
+1
+131
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+breakingbad_react/src/index.css
+@juanpablogdl
+juanpablogdl primeros ajustes
+Latest commit 19a0d17 on 8 Dec 2019
+ History
+ 1 contributor
+31 lines (30 sloc)  557 Bytes
+ 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+  margin:0 ;
+}
+html {
+  height: 100%;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+  min-height: 100%;
+  background-position: center 80px, center center;
+  background-repeat:no-repeat;
+  background-size: 300px, 100% 100%;
+  display: flex;
+  align-items: flex-end;
+}
+@media (min-width:768px) {
+  body {
+    align-items: center;
+    background-size: 400px, 100% 100%;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  width: 100%;
 }
